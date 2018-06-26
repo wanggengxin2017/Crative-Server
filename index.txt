@@ -1,0 +1,39 @@
+<!DOCTYPE html                                           >
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+            <title>Test</title>
+            <style>
+                *{
+                    font-family: "Microsoft YaHei","Microsoft YaHei UI Light";
+                }
+                a{
+                    text-decoration:none;
+                    color:aqua;
+                }
+
+            </style>
+        <script>
+            var error = document.getElementById("error");
+            if (window.applicationCache) {
+                document.write("");
+            }
+                else if (window.ActiveXObject || "ActiveXObject" in window){
+                document.write("您的浏览器是IE，请更换浏览器！");
+                error.innerHTML = "<p>推荐使用谷歌浏览器访问该页面，点击下方链接下载谷歌浏览器。您也可以使用当前使用的浏览器，但是其效果可能欠佳。</p>";
+                error.innerHTML = "<a href=' https://www.baidu.com/?tn=98012088_5_dg&ch=12'>点击下载</a>";
+            }
+        </script>
+    </head>
+    <body>
+
+        <noscript>
+            <p>推荐使用谷歌浏览器访问该页面，点击下方链接下载谷歌浏览器。您也可以使用当前使用的浏览器，但是其效果可能欠佳。</p>
+            <a href=" http://dwz.cn/74d9Ja">
+            下载谷歌浏览器
+            </a>
+        </noscript>
+        <p>Test Page</p>
+
+    </body>
+</html>
