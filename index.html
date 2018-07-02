@@ -28,14 +28,13 @@
         var error = document.getElementById("error");
         if (window.applicationCache) {
             document.write("");
-        } else if (window.ActiveXObject || "ActiveXObject" in window) {
+        } 
+	else if (window.ActiveXObject || "ActiveXObject" in window) {
             document.write("您的浏览器是IE，不推荐使用，请您更换浏览器！");
-            error.innerHTML = "<p>推荐使用谷歌浏览器访问该页面，点击下方链接下载谷歌浏览器。您也可以使用当前使用的浏览器，但是其效果可能欠佳。</p>";
-            error.innerHTML = "<a href=' http://dwz.cn/74d9Ja'>点击下载</a>";
         }
     </script>
     <noscript>
-        <p>推荐使用谷歌浏览器访问该页面，点击下方链接下载谷歌浏览器。您也可以使用当前使用的浏览器，但是其效果可能欠佳。</p><a href=" http://dwz.cn/74d9Ja">下载谷歌浏览器</a>
+	    <p>您的浏览器故障，请更换您的浏览器。您也可以使用当前使用的浏览器，但是其效果可能欠佳。</p>
     </noscript>
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" align="left">
         <ul class="nav navbar-nav ">
@@ -80,28 +79,11 @@
                 </div>
             </div>
         </div>
-    </header>
-    <section id="about" class="about2 sections lightbg"><span id="aboutme"><p align="center" style="font-family:'微软雅黑';font-size:50px;color:black;">- 关于我们 -</p></span>
-        <div class="container">
-            <div class="row">
-                <div class="main_about2">
-                    <div class="head_title text-center">
-                        <div>
-                            <br/>
-                            <p><font size="+2"></font></p>
-                            <br/>
-                            <font color="red" size="+2"> </font>
-                            <br/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	</header>
     <section id="introduce" class="introduce sections">
     	<span class="head_title text-center">
    			<h1>- 服务器简介 -</h1>
-   			<h2 align="left">
+   			<h3 align="left">
    			我们的Crative Server（创意造言）服务器是一个生存+小游戏的服务器。很和谐，基本无熊孩子及外挂。由于刚开服，现在疯狂收人，
    			新手大礼有：铁甲一套、铁镐、铁剑、铁斧、铁锄，1000游戏币等等！本服有结婚系统、公会系统、小游戏模组、抽奖系统等等。<br />
    			关于服务器：目前资费比较贫乏，每当有玩家、大佬或土豪赞助、投资或充值（赠送游戏装备和点券等）到达一档（50元），我们会立即告
@@ -110,7 +92,7 @@
                         关于新加入的爱好者：因为会有熊孩子或迷你狗，所以审查会比较严格，但不限人数和年龄（只要不熊、影响服务器声誉或损坏服务器就可以<br />
 			最后有一点可以肯定，<b>如果您爱好MC，加入我们，一定不会让您失望。</b>
    		       （偷偷说一句：服务器妹子很多哦！）
-   			</h2>
+   			</h3>
     	</span>
     </section>
     <section id="image" class="portfolio sections">
@@ -190,7 +172,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="menu-item">
-                                <h3>游戏</h3>
+         
                                 <ul></ul>
                             </div>
                         </div>
