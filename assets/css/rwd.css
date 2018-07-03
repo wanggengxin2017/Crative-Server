@@ -3,7 +3,7 @@
     padding:0px;
 }
 .bar{
-
+    background-color:blue;
 }
 .head{
 
@@ -13,4 +13,9 @@
 }
 .footer{
 
+}
+@media screen and (min-width:900px){
+.bar,.heading,.main,.footer{
+width:900px;
+}
 }
