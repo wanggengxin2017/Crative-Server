@@ -14,13 +14,13 @@
 .footer{
 
 }
-@media screen and (min-width:900px){
+/*@media screen and (min-width:1000px){
 *{font-size:auto;}
-}
-@media screen and (min-width:600px) and (max-width:900px){
-*{font-size:auto;}
+}*/
+@media screen and (min-width:600px) and (max-width:1000px){
+*{font-size:30px;}
 }
 @media screen and (max-width:600px){
-.bar{display:none;}
+. nav navbar-nav navbar-right{display:none;}
 *{font-size:auto;}
 }

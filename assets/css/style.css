@@ -16,7 +16,15 @@ ul{
 	z-index: 10000;
 }
 a{
-	font-size:30px;
+@media screen and (min-width:1000px){
+font-size:auto;
+}
+@media screen and (min-width:500px) and (max-width:1000px){
+font-size:auto;
+}
+@media screen and (max-width:500px){
+font-size:auto;
+}
 }
 label{
 	font-size:20px;
