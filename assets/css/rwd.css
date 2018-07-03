@@ -15,12 +15,12 @@
 
 }
 @media screen and (min-width:900px){
-.bar,.header,.main,.footer{font-size:auto;}
+*{font-size:auto;}
 }
 @media screen and (min-width:600px) and (max-width:900px){
-.bar,.header,.main,.footer{font-size:auto;}
+*{font-size:auto;}
 }
 @media screen and (max-width:600px){
 .bar{display:none;}
-.header,.main,.footer{font-size:auto;}
+*{font-size:auto;}
 }
